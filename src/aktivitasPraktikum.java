@@ -31,6 +31,6 @@ public class aktivitasPraktikum {
         System.out.print("Masukkan tahun lahir: ");
         int tahunLahir = input.nextInt();
         System.out.println("Tanggal lahir: " + tanggalLahir + "-" + bulanLahir + "-" + tahunLahir);
-
+        input.close();
     }
 }
